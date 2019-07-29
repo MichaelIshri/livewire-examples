@@ -18,3 +18,7 @@ Route::get('/', function () {
 Route::get('neon', function(){
     return view('neon');
 });
+
+Route::get('weather', function(){
+    return view('weather');
+});
